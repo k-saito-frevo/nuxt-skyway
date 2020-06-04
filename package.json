@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-skyway",
+  "version": "1.0.0",
+  "description": "My mathematical Nuxt.js project",
+  "author": "k.saito",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt --host myhost --port 8081",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "bootstrap": "^4.1.3",
+    "bootstrap-vue": "^2.0.0",
+    "nuxt": "^2.0.0",
+    "skyway-js": "^2.0.5"
+  },
+  "devDependencies": {}
+}
